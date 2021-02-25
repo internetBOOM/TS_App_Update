@@ -14,7 +14,7 @@ function Write-Log {
 
 ## COPY SITE CONFIGURATION HERE OR COPY SCRIPT DIRECTLY INTO ALREADY CONNECTED Psh WINDOW ##
 
-## Your default path could be anywhere, and could be stored in a variable is desired. For simplicity, this is stored in a Logs collection folder here that exists on my test devices. ##
+## Your default logging path could be anywhere, and could be stored in a variable is desired. For simplicity, this is stored in a Logs collection folder here that exists on my test devices. ##
 Start-Transcript -Path "C:\Logs\$file" -Append -Force
 
 ## Set the TaskSequenceID to a variable, or a read Host call like this for variability ##
